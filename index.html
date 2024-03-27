@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <form action="#" method="POST">
+    <form id="form" action="#" method="POST">
         <div class="container">
             <div class="image"> 
                 <img src="Images/photo.jpg">
@@ -22,19 +22,19 @@
                     <div class="info">
                         <div class="column">
                             <label for="first_name">FIRST NAME</label>
-                            <input type="text" id="first_name" name="first_name">
+                            <input type="text" id="first_name" name="first_name" required>
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required>
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="pass" name="pass">
+                            <input type="password" id="pass" name="pass" required>
                         </div>
                         <div class="column">
                             <label for="last_name">LAST NAME</label>
-                            <input type="text" id="last_name" name="last_name">
+                            <input type="text" id="last_name" name="last_name" required>
                             <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="0123456789">
+                            <input type="text" id="phone" name="phone" pattern="[0-9]+" title="Please enter numbers only" placeholder="0123456789" required>
                             <label for="Confirmpassword">PASSWORD</label>
-                            <input type="password" id="Confirmpass" name="Confirmpass">
+                            <input type="password" id="ConfirmPass" name="ConfirmPass" required>
                         </div>
                     </div>
                 </div>
@@ -45,5 +45,6 @@
             </div>
         </div>
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
