@@ -22,7 +22,8 @@ body {
 }
 .quote {
     padding-left: 10%;
-    margin-top: 20%;
+    margin-top: 12%;
+    margin-bottom: 5%;
     font-weight: bold;
 }
 .layer2nd {
@@ -37,6 +38,11 @@ body {
 }
 .column {
     flex:50%;
+}
+.column p {
+    font-size: 1vw;
+    color:red;
+    margin-top:2px;
 }
 label {
     display:block;
@@ -58,6 +64,7 @@ input[type=password] {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 .action_buttons {
     margin-top:5%;
     padding-left: 10%;
