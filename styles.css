@@ -44,7 +44,10 @@ label {
     color:rgba(0, 0, 0, 0.706);
 }
 
-input {
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password] {
     margin-top:2px;
     margin-bottom:3%;
     font-size: 1.2vw;
@@ -54,4 +57,23 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+.action_buttons {
+    margin-top:5%;
+    padding-left: 10%;
+}
+input[type=submit] {
+    font-size: 1.2vw;
+    padding:3% 7%;
+    font-weight: bold;
+    color:white;
+    border:none;
+    background-color: brown;
+    border-radius: 8px;
+    margin-bottom:3%;
+    cursor:pointer;
+}
+.action_buttons a {
+    cursor:pointer;
+    color:brown
 }
