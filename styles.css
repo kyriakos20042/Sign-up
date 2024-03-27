@@ -1,6 +1,6 @@
 body {
     color:rgba(0, 0, 0, 0.834);
-    font-size: 1.3vw;
+    font-size: 1vw;
     background-color: rgb(241, 241, 241);
     padding: 0;
     margin:0;
@@ -46,7 +46,7 @@ body {
 }
 label {
     display:block;
-    font-size: 1vw;
+    font-size: 0.6vw;
     color:rgba(0, 0, 0, 0.706);
 }
 
@@ -56,7 +56,7 @@ input[type=tel],
 input[type=password] {
     margin-top:2px;
     margin-bottom:3%;
-    font-size: 1.2vw;
+    font-size: 1vw;
     width: 70%;
     padding: 4px;
     display: inline-block;
@@ -64,14 +64,13 @@ input[type=password] {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 .action_buttons {
     margin-top:5%;
     padding-left: 10%;
 }
 input[type=submit] {
-    font-size: 1.2vw;
-    padding:3% 7%;
+    font-size: 1vw;
+    padding:3% 5%;
     font-weight: bold;
     color:white;
     border:none;
